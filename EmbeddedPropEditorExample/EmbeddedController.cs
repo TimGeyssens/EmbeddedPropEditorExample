@@ -31,7 +31,7 @@ namespace EmbeddedPropEditorExample
             }
             if (fileId.EndsWith(".css"))
             {
-                return "text/stylesheet";
+                return "text/css";
             }
             return "text";
         }
